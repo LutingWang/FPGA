@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips.ncd
+OUTFILE=C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips.bit
+FAMILY=Spartan6
+PART=xc6slx100-2fgg676
+WORKINGDIR=C:\Users\ThinkPad\Documents\ISE\FPGA\mips
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

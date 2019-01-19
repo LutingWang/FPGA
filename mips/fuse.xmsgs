@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v" Line 61: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 103: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v" Line 90: Port <arg fmt="%s" index="1">ALUASrc</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v" Line 34: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 75: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 107: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 116: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v" Line 45: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v" Line 85: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v" Line 107: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v" Line 48: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v" Line 37: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" Line 146: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+</messages>
+

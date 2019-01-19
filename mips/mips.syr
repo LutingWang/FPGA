@@ -1,0 +1,1837 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx100-2-fgg676
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" into library work
+Parsing module <CLOCK>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\ctrl.v" into library work
+Parsing module <ctrl>.
+Parsing verilog file "header_ind.v" included at line 46.
+Parsing verilog file "header_ctrl.v" included at line 47.
+Parsing verilog file "header_hazard.v" included at line 48.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_IM.v" into library work
+Parsing module <BRAM_IM>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_DM.v" into library work
+Parsing module <BRAM_DM>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" into library work
+Parsing module <expM>.
+Parsing verilog file "header_expint.v" included at line 29.
+Parsing verilog file "header_addr.v" included at line 30.
+Parsing verilog file "header_hazard.v" included at line 31.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expF.v" into library work
+Parsing module <expF>.
+Parsing verilog file "header_expint.v" included at line 26.
+Parsing verilog file "header_addr.v" included at line 27.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" into library work
+Parsing module <expE>.
+Parsing verilog file "header_expint.v" included at line 28.
+Parsing verilog file "header_ind.v" included at line 29.
+Parsing verilog file "header_ctrl.v" included at line 30.
+Parsing verilog file "header_hazard.v" included at line 31.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" into library work
+Parsing module <expD>.
+Parsing verilog file "header_expint.v" included at line 27.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" into library work
+Parsing module <cp0>.
+Parsing verilog file "header_expint.v" included at line 39.
+Parsing verilog file "header_ctrl.v" included at line 40.
+Parsing verilog file "header_debug.v" included at line 41.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v" into library work
+Parsing module <MUX_RF_A3>.
+Parsing verilog file "header_ctrl.v" included at line 28.
+Parsing module <MUX_ALU_A>.
+Parsing verilog file "header_ctrl.v" included at line 44.
+Parsing module <MUX_ALU_B>.
+Parsing verilog file "header_ctrl.v" included at line 57.
+Parsing module <MUX_RF_WD>.
+Parsing verilog file "header_ctrl.v" included at line 71.
+Parsing verilog file "header_debug.v" included at line 72.
+Parsing module <MUX_PC>.
+Parsing verilog file "header_ctrl.v" included at line 90.
+Parsing verilog file "header_debug.v" included at line 91.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mf.v" into library work
+Parsing module <mf>.
+Parsing verilog file "header_hazard.v" included at line 31.
+Parsing verilog file "header_debug.v" included at line 32.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\loadExt.v" into library work
+Parsing module <LoadExt>.
+Parsing verilog file "header_ctrl.v" included at line 29.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\dm.v" into library work
+Parsing module <dm>.
+Parsing verilog file "header_debug.v" included at line 30.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\be.v" into library work
+Parsing module <be>.
+Parsing verilog file "header_ctrl.v" included at line 27.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\alu.v" into library work
+Parsing module <alu>.
+Parsing verilog file "header_ctrl.v" included at line 32.
+Parsing verilog file "header_debug.v" included at line 33.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\npc.v" into library work
+Parsing module <npc>.
+Parsing verilog file "header_ctrl.v" included at line 28.
+Parsing verilog file "header_debug.v" included at line 29.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\grf.v" into library work
+Parsing module <grf>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\ext.v" into library work
+Parsing module <ext>.
+Parsing verilog file "header_ctrl.v" included at line 27.
+Parsing verilog file "header_debug.v" included at line 28.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\cmp.v" into library work
+Parsing module <cmp>.
+Parsing verilog file "header_ctrl.v" included at line 28.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\pc.v" into library work
+Parsing module <pc>.
+Parsing verilog file "header_addr.v" included at line 29.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\im.v" into library work
+Parsing module <im>.
+Parsing verilog file "header_addr.v" included at line 27.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" into library work
+Parsing module <exception>.
+Parsing verilog file "header_expint.v" included at line 35.
+Parsing verilog file "header_ind.v" included at line 36.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" into library work
+Parsing module <W>.
+Parsing verilog file "header_ind.v" included at line 31.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" into library work
+Parsing module <M>.
+Parsing verilog file "header_addr.v" included at line 47.
+Parsing verilog file "header_debug.v" included at line 48.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" into library work
+Parsing module <E>.
+Parsing verilog file "header_expint.v" included at line 43.
+Parsing verilog file "header_ind.v" included at line 44.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" into library work
+Parsing module <D>.
+Parsing verilog file "header_expint.v" included at line 50.
+Parsing verilog file "header_ind.v" included at line 51.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\F.v" into library work
+Parsing module <F>.
+Parsing verilog file "header_addr.v" included at line 39.
+Parsing verilog file "header_expint.v" included at line 40.
+Parsing verilog file "header_debug.v" included at line 41.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\utils.v" into library work
+Parsing module <divisor>.
+Parsing module <counter>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v" into library work
+Parsing verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\/head_uart.v" included at line 14.
+Parsing module <tx_unit>.
+Parsing module <ctrl_shift>.
+Parsing module <trans_reg>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" into library work
+Parsing verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\/head_uart.v" included at line 9.
+Parsing module <rx_unit>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\datapath.v" into library work
+Parsing module <datapath>.
+Parsing verilog file "header_ctrl.v" included at line 42.
+Parsing verilog file "header_ind.v" included at line 43.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" into library work
+Parsing module <hazard>.
+Parsing verilog file "header_expint.v" included at line 33.
+Parsing verilog file "header_hazard.v" included at line 34.
+Parsing verilog file "header_ctrl.v" included at line 35.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\tube.v" into library work
+Parsing module <tube>.
+Parsing verilog file "header_driver.v" included at line 37.
+Parsing verilog file "header_ind.v" included at line 38.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\timer.v" into library work
+Parsing module <timer>.
+Parsing verilog file "header_debug.v" included at line 31.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\switch.v" into library work
+Parsing module <switch>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\uart.v" into library work
+Parsing verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\/head_uart.v" included at line 12.
+Parsing module <MiniUART>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\led.v" into library work
+Parsing module <led>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\key.v" into library work
+Parsing module <key>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\cpu.v" into library work
+Parsing module <cpu>.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\bridge\bridge.v" into library work
+Parsing module <bridge>.
+Parsing verilog file "header_addr.v" included at line 49.
+Parsing verilog file "header_debug.v" included at line 50.
+Analyzing Verilog file "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <CLOCK>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=16,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=20,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=10,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKIN_PERIOD=40.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 119: Assignment to clkout2_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 120: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 121: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 122: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 123: Assignment to locked_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <cpu>.
+
+Elaborating module <datapath>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" Line 61: Port NPC_Sel is not connected to this instance
+
+Elaborating module <exception>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" Line 103: Port NPC_Sel is not connected to this instance
+
+Elaborating module <cp0>.
+
+Elaborating module <ctrl>.
+
+Elaborating module <F>.
+
+Elaborating module <expF>.
+
+Elaborating module <pc>.
+
+Elaborating module <im>.
+
+Elaborating module <BRAM_IM>.
+WARNING:HDLCompiler:1499 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_IM.v" Line 39: Empty module <BRAM_IM> remains a black box.
+
+Elaborating module <MUX_PC>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" Line 90: Port ALUASrc is not connected to this instance
+
+Elaborating module <D>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" Line 34: Port NPC_Sel is not connected to this instance
+
+Elaborating module <expD>.
+
+Elaborating module <grf>.
+
+Elaborating module <cmp>.
+
+Elaborating module <npc>.
+
+Elaborating module <ext>.
+
+Elaborating module <mf>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 75: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 107: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 116: Port PC4E is not connected to this instance
+
+Elaborating module <E>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" Line 45: Port NPC_Sel is not connected to this instance
+
+Elaborating module <expE>.
+
+Elaborating module <alu>.
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 87: Assignment to N ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 88: Assignment to Z ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 90: Assignment to Carry ignored, since the identifier is never used
+
+Elaborating module <MUX_ALU_A>.
+
+Elaborating module <MUX_ALU_B>.
+WARNING:HDLCompiler:552 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 107: Input port PC4E[31] is not connected on this instance
+WARNING:HDLCompiler:552 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 116: Input port PC4E[31] is not connected on this instance
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 85: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 107: Port PC4E is not connected to this instance
+
+Elaborating module <M>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" Line 48: Port NPC_Sel is not connected to this instance
+
+Elaborating module <expM>.
+
+Elaborating module <be>.
+
+Elaborating module <dm>.
+
+Elaborating module <BRAM_DM>.
+WARNING:HDLCompiler:1499 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_DM.v" Line 39: Empty module <BRAM_DM> remains a black box.
+WARNING:HDLCompiler:552 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 107: Input port PC4E[31] is not connected on this instance
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" Line 37: Port NPC_Sel is not connected to this instance
+
+Elaborating module <W>.
+
+Elaborating module <MUX_RF_A3>.
+
+Elaborating module <LoadExt>.
+
+Elaborating module <MUX_RF_WD>.
+WARNING:HDLCompiler:1016 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" Line 146: Port NPC_Sel is not connected to this instance
+
+Elaborating module <hazard>.
+WARNING:HDLCompiler:1127 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" Line 127: Assignment to A1M ignored, since the identifier is never used
+
+Elaborating module <bridge>.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\bridge\bridge.v" Line 66: Result of 30-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <timer>.
+
+Elaborating module <MiniUART>.
+
+Elaborating module <rx_unit>.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 54: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 55: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 62: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 65: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 73: Result of 32-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <tx_unit>.
+
+Elaborating module <ctrl_shift>.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v" Line 74: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <trans_reg>.
+
+Elaborating module <divisor(size_cnt_rx=16,size_cnt_tx=16)>.
+
+Elaborating module <counter(size_cnt=16)>.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\utils.v" Line 58: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\uart.v" Line 53: Result of 39-bit expression is truncated to fit in 32-bit target.
+
+Elaborating module <switch>.
+
+Elaborating module <led>.
+
+Elaborating module <tube>.
+
+Elaborating module <key>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips.v".
+    Summary:
+	no macro.
+Unit <mips> synthesized.
+
+Synthesizing Unit <CLOCK>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v".
+    Summary:
+	no macro.
+Unit <CLOCK> synthesized.
+
+Synthesizing Unit <cpu>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\cpu.v".
+    Summary:
+	no macro.
+Unit <cpu> synthesized.
+
+Synthesizing Unit <datapath>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\datapath.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <datapath> synthesized.
+
+Synthesizing Unit <exception>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <NPC_Sel> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <CmpOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <ExtOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <ALUOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <BEOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <RegDst> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <DataSrc> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <ic> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <A1> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <A2> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <A3> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <NPCOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <ALUASrc> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <ALUBSrc> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <MemWrite> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <LoadExtOp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <RegWrite> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <RI_exp> of the instance <controllerExp> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" line 61: Output port <iscp0> of the instance <controllerExp> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <exception> synthesized.
+
+Synthesizing Unit <cp0>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <NPC_Sel> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <CmpOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <ExtOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <ALUOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <BEOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <RegDst> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <DataSrc> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <A1> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <A2> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <A3> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <NPCOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <ALUASrc> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <ALUBSrc> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <MemWrite> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <LoadExtOp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <RegWrite> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <RI_exp> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <iseret> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <iscp0> of the instance <atCP0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" line 103: Output port <cp0_we> of the instance <atCP0> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <EXL>.
+    Found 1-bit register for signal <IE>.
+    Found 1-bit register for signal <BD>.
+    Found 6-bit register for signal <IP>.
+    Found 5-bit register for signal <ExcCode>.
+    Found 30-bit register for signal <EPC>.
+    Found 6-bit register for signal <IM>.
+    Found 32-bit subtractor for signal <PC4M[31]_GND_9_o_sub_20_OUT> created at line 88.
+    Found 32-bit subtractor for signal <PC4M[31]_GND_9_o_sub_21_OUT> created at line 88.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   9 Multiplexer(s).
+Unit <cp0> synthesized.
+
+Synthesizing Unit <ctrl>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\ctrl.v".
+    Found 1-bit adder for signal <n0399> created at line 130.
+    Found 1-bit adder for signal <n0402> created at line 130.
+    Found 1-bit adder for signal <n0405> created at line 130.
+    Found 1-bit adder for signal <n0408> created at line 130.
+    Found 1-bit adder for signal <n0411> created at line 130.
+    Found 1-bit adder for signal <n0414> created at line 130.
+    Found 1-bit adder for signal <n0417> created at line 130.
+    Found 1-bit adder for signal <n0420> created at line 130.
+    Found 1-bit adder for signal <n0423> created at line 130.
+    Found 1-bit adder for signal <n0426> created at line 130.
+    Found 1-bit adder for signal <n0429> created at line 130.
+    Found 1-bit adder for signal <n0432> created at line 130.
+    Found 1-bit adder for signal <n0435> created at line 130.
+    Found 1-bit adder for signal <n0438> created at line 130.
+    Found 1-bit adder for signal <add_is_xor_add_120_OUT<0>> created at line 130.
+    Found 1-bit adder for signal <n0444> created at line 131.
+    Found 1-bit adder for signal <n0447> created at line 131.
+    Found 1-bit adder for signal <n0450> created at line 131.
+    Found 1-bit adder for signal <n0453> created at line 131.
+    Found 1-bit adder for signal <n0456> created at line 131.
+    Found 1-bit adder for signal <n0459> created at line 131.
+    Found 1-bit adder for signal <addi_xori_add_127_OUT<0>> created at line 131.
+    Found 1-bit adder for signal <n0465> created at line 132.
+    Found 1-bit adder for signal <n0468> created at line 132.
+    Found 1-bit adder for signal <n0471> created at line 132.
+    Found 1-bit adder for signal <lb_lw_add_131_OUT<0>> created at line 132.
+    Found 1-bit adder for signal <n0477> created at line 133.
+    Found 1-bit adder for signal <sb_sw_add_133_OUT<0>> created at line 133.
+    Found 1-bit adder for signal <n0483> created at line 134.
+    Found 1-bit adder for signal <n0486> created at line 134.
+    Found 1-bit adder for signal <n0489> created at line 134.
+    Found 1-bit adder for signal <n0492> created at line 134.
+    Found 1-bit adder for signal <beq_bne_add_138_OUT<0>> created at line 134.
+    Found 1-bit adder for signal <j_eret_add_139_OUT<0>> created at line 135.
+    Found 1-bit adder for signal <NPCOp> created at line 157.
+    Found 1-bit adder for signal <jr_jalr_add_177_OUT<0>> created at line 159.
+    Found 1-bit adder for signal <n0507> created at line 171.
+    Found 1-bit adder for signal <andi_ori_add_191_OUT<0>> created at line 171.
+    Found 1-bit adder for signal <n0513> created at line 176.
+    Found 1-bit adder for signal <sll_srl_add_202_OUT<0>> created at line 176.
+    Found 1-bit adder for signal <n0519> created at line 181.
+    Found 1-bit adder for signal <addi_addu_add_209_OUT<0>> created at line 181.
+    Found 1-bit adder for signal <sub_subu_add_212_OUT<0>> created at line 182.
+    Found 1-bit adder for signal <andi_is_and_add_213_OUT<0>> created at line 183.
+    Found 1-bit adder for signal <n0531> created at line 184.
+    Found 1-bit adder for signal <lui_is_or_add_215_OUT<0>> created at line 184.
+    Found 1-bit adder for signal <xori_is_xor_add_216_OUT<0>> created at line 186.
+    Found 1-bit adder for signal <slti_slt_add_217_OUT<0>> created at line 187.
+    Found 1-bit adder for signal <sltiu_sltu_add_218_OUT<0>> created at line 188.
+    Found 1-bit adder for signal <sll_sllv_add_219_OUT<0>> created at line 189.
+    Found 1-bit adder for signal <sra_srav_add_220_OUT<0>> created at line 190.
+    Found 1-bit adder for signal <srl_srlv_add_221_OUT<0>> created at line 191.
+    Found 1-bit adder for signal <lb_sb_add_234_OUT<0>> created at line 193.
+    Found 1-bit adder for signal <n0558> created at line 194.
+    Found 1-bit adder for signal <lh_sh_add_236_OUT<0>> created at line 194.
+    Found 1-bit adder for signal <n0564> created at line 195.
+    Found 1-bit adder for signal <lw_mfc0_add_238_OUT<0>> created at line 195.
+    Found 1-bit adder for signal <lb_lh_add_249_OUT<0>> created at line 202.
+    Found 1-bit adder for signal <lbu_lhu_add_250_OUT<0>> created at line 203.
+    Found 1-bit adder for signal <jalr_jal_add_254_OUT<0>> created at line 208.
+    Summary:
+	inferred  60 Adder/Subtractor(s).
+	inferred  48 Multiplexer(s).
+Unit <ctrl> synthesized.
+
+Synthesizing Unit <F>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\F.v".
+    Found 32-bit register for signal <PC4D>.
+    Found 5-bit register for signal <ExcCodeF>.
+    Found 32-bit register for signal <IRD>.
+    Found 32-bit adder for signal <PC4> created at line 45.
+    Found 32-bit adder for signal <EPC[31]_GND_11_o_add_4_OUT> created at line 57.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  69 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <F> synthesized.
+
+Synthesizing Unit <expF>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expF.v".
+    Found 32-bit comparator lessequal for signal <n0000> created at line 29
+    Found 32-bit comparator greater for signal <PC[31]_GND_12_o_LessThan_2_o> created at line 29
+    Summary:
+	inferred   2 Comparator(s).
+Unit <expF> synthesized.
+
+Synthesizing Unit <pc>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\pc.v".
+    Found 32-bit register for signal <PC>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <pc> synthesized.
+
+Synthesizing Unit <im>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\1_F\im.v".
+    Found 32-bit subtractor for signal <Addr[31]_GND_14_o_sub_1_OUT> created at line 32.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <im> synthesized.
+
+Synthesizing Unit <MUX_PC>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v".
+    Found 32-bit 4-to-1 multiplexer for signal <MUX_PC_OUT> created at line 87.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <MUX_PC> synthesized.
+
+Synthesizing Unit <D>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <ALUOp> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <BEOp> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <RegDst> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <DataSrc> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <ic> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <A1> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <A2> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <A3> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <ALUASrc> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <ALUBSrc> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <MemWrite> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <LoadExtOp> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <RegWrite> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <RI_exp> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <iscp0> of the instance <controllerD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" line 90: Output port <cp0_we> of the instance <controllerD> is unconnected or connected to loadless signal.
+    Found 32-bit register for signal <PC4E>.
+    Found 32-bit register for signal <RSE>.
+    Found 32-bit register for signal <RTE>.
+    Found 32-bit register for signal <EXTE>.
+    Found 5-bit register for signal <ExcCodeE>.
+    Found 32-bit register for signal <IRE>.
+    Summary:
+	inferred 165 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <D> synthesized.
+
+Synthesizing Unit <expD>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <NPC_Sel> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <CmpOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <ExtOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <ALUOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <BEOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <RegDst> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <DataSrc> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <ic> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <A1> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <A2> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <A3> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <NPCOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <ALUASrc> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <ALUBSrc> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <MemWrite> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <LoadExtOp> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <RegWrite> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <iseret> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <iscp0> of the instance <riD> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" line 34: Output port <cp0_we> of the instance <riD> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <expD> synthesized.
+
+Synthesizing Unit <grf>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\grf.v".
+    Found 992-bit register for signal <n0053[991:0]>.
+    Found 32-bit 31-to-1 multiplexer for signal <A1[4]_generalRegister[31][31]_wide_mux_1_OUT> created at line 36.
+    Found 32-bit 31-to-1 multiplexer for signal <A2[4]_generalRegister[31][31]_wide_mux_4_OUT> created at line 37.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+Unit <grf> synthesized.
+
+Synthesizing Unit <cmp>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\cmp.v".
+    Found 32-bit comparator equal for signal <Rd1[31]_Rd2[31]_equal_2_o> created at line 30
+    Found 32-bit comparator greater for signal <n0004> created at line 31
+    Found 32-bit comparator greater for signal <Rd1[31]_GND_20_o_LessThan_6_o> created at line 32
+    Summary:
+	inferred   3 Comparator(s).
+Unit <cmp> synthesized.
+
+Synthesizing Unit <npc>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\npc.v".
+    Found 32-bit adder for signal <PC4[31]_I26[15]_add_2_OUT> created at line 32.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <npc> synthesized.
+
+Synthesizing Unit <ext>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\ext.v".
+    Found 32-bit 4-to-1 multiplexer for signal <Ext> created at line 24.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <ext> synthesized.
+
+Synthesizing Unit <mf>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mf.v".
+    Found 32-bit adder for signal <PC4E[31]_GND_23_o_add_1_OUT> created at line 34.
+    Found 32-bit adder for signal <PC4M[31]_GND_23_o_add_4_OUT> created at line 36.
+    Found 32-bit 7-to-1 multiplexer for signal <MF_OUT> created at line 28.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  11 Multiplexer(s).
+Unit <mf> synthesized.
+
+Synthesizing Unit <E>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v".
+WARNING:Xst:2898 - Port 'PC4E', unconnected in block instance 'MF_RS_E', is tied to GND.
+WARNING:Xst:2898 - Port 'PC4E', unconnected in block instance 'MF_RT_E', is tied to GND.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <NPC_Sel> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <CmpOp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <ExtOp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <BEOp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <RegDst> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <DataSrc> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <ic> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <A1> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <A2> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <A3> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <NPCOp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <MemWrite> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <LoadExtOp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <RegWrite> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <RI_exp> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <iseret> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <iscp0> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 75: Output port <cp0_we> of the instance <controllerE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 82: Output port <N> of the instance <ALUE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 82: Output port <Z> of the instance <ALUE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" line 82: Output port <Carry> of the instance <ALUE> is unconnected or connected to loadless signal.
+    Found 32-bit register for signal <PC4M>.
+    Found 32-bit register for signal <AOM>.
+    Found 32-bit register for signal <RTM>.
+    Found 5-bit register for signal <ExcCodeM>.
+    Found 32-bit register for signal <IRM>.
+    Summary:
+	inferred 133 D-type flip-flop(s).
+Unit <E> synthesized.
+
+Synthesizing Unit <expE>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <NPC_Sel> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <CmpOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <ExtOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <ALUOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <BEOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <RegDst> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <DataSrc> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <A1> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <A2> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <A3> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <NPCOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <ALUASrc> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <ALUBSrc> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <MemWrite> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <LoadExtOp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <RegWrite> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <RI_exp> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <iseret> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <iscp0> of the instance <atE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" line 45: Output port <cp0_we> of the instance <atE> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <expE> synthesized.
+
+Synthesizing Unit <alu>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\alu.v".
+    Found 32-bit subtractor for signal <GND_26_o_GND_26_o_sub_5_OUT> created at line 55.
+    Found 2-bit subtractor for signal <GND_26_o_GND_26_o_sub_6_OUT> created at line 56.
+    Found 2-bit subtractor for signal <GND_26_o_GND_26_o_sub_7_OUT> created at line 56.
+    Found 32-bit adder for signal <n1291> created at line 50.
+    Found 2-bit adder for signal <n1295> created at line 51.
+    Found 2-bit adder for signal <BUS_0002_GND_26_o_add_3_OUT> created at line 51.
+    Found 32-bit 16-to-1 multiplexer for signal <C> created at line 42.
+    Found 32-bit comparator greater for signal <B[31]_A[31]_LessThan_13_o> created at line 84
+    Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_15_o> created at line 90
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_172_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_173_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_176_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_179_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_182_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_185_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_188_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_191_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_194_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_197_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_200_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_203_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_206_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_209_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_212_o> created at line 111
+    Found 5-bit comparator lessequal for signal <GND_26_o_A[4]_LessThan_215_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_218_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_221_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_224_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_227_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_230_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_233_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_236_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_239_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_242_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_245_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_248_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_251_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_254_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_257_o> created at line 111
+    Found 5-bit comparator lessequal for signal <PWR_28_o_A[4]_LessThan_260_o> created at line 111
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  33 Comparator(s).
+	inferred 1028 Multiplexer(s).
+Unit <alu> synthesized.
+
+Synthesizing Unit <MUX_ALU_A>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_ALU_A> synthesized.
+
+Synthesizing Unit <MUX_ALU_B>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_ALU_B> synthesized.
+
+Synthesizing Unit <M>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v".
+WARNING:Xst:2898 - Port 'PC4E', unconnected in block instance 'MF_RT_M', is tied to GND.
+WARNING:Xst:2898 - Port 'AO', unconnected in block instance 'MF_RT_M', is tied to GND.
+WARNING:Xst:2898 - Port 'PC4M', unconnected in block instance 'MF_RT_M', is tied to GND.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <NPC_Sel> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <CmpOp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <ExtOp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <ALUOp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <RegDst> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <DataSrc> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <ic> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <A1> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <A2> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <A3> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <NPCOp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <ALUASrc> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <ALUBSrc> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <LoadExtOp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <RegWrite> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <RI_exp> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <iseret> of the instance <controllerM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" line 85: Output port <cp0_we> of the instance <controllerM> is unconnected or connected to loadless signal.
+    Found 32-bit register for signal <PC4W>.
+    Found 32-bit register for signal <AOW>.
+    Found 32-bit register for signal <DRW>.
+    Found 32-bit register for signal <IRW>.
+    Found 32-bit comparator greater for signal <AOM[31]_GND_29_o_LessThan_5_o> created at line 71
+    Found 32-bit comparator lessequal for signal <n0005> created at line 72
+    Found 32-bit comparator greater for signal <AOM[31]_GND_29_o_LessThan_7_o> created at line 72
+    Summary:
+	inferred 128 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <M> synthesized.
+
+Synthesizing Unit <expM>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <NPC_Sel> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <CmpOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <ExtOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <ALUOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <BEOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <RegDst> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <DataSrc> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <A1> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <A2> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <A3> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <NPCOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <ALUASrc> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <ALUBSrc> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <MemWrite> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <LoadExtOp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <RegWrite> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <RI_exp> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <iseret> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <iscp0> of the instance <atM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" line 48: Output port <cp0_we> of the instance <atM> is unconnected or connected to loadless signal.
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_1_o> created at line 34
+    Found 32-bit comparator lessequal for signal <n0001> created at line 35
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_3_o> created at line 35
+    Found 32-bit comparator lessequal for signal <n0008> created at line 36
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_6_o> created at line 36
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_9_o> created at line 37
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_12_o> created at line 38
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_15_o> created at line 39
+    Found 32-bit comparator greater for signal <AOM[31]_GND_30_o_LessThan_17_o> created at line 40
+    Summary:
+	inferred   9 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <expM> synthesized.
+
+Synthesizing Unit <be>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\be.v".
+    Found 4-bit 4-to-1 multiplexer for signal <Be> created at line 30.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <be> synthesized.
+
+Synthesizing Unit <dm>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\dm.v".
+    Summary:
+	inferred  13 Multiplexer(s).
+Unit <dm> synthesized.
+
+Synthesizing Unit <W>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <NPC_Sel> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <CmpOp> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <ExtOp> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <ALUOp> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <ic> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <A1> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <A2> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <A3> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <NPCOp> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <ALUASrc> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <ALUBSrc> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <MemWrite> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <RI_exp> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <iseret> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <iscp0> of the instance <contorllerW> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" line 37: Output port <cp0_we> of the instance <contorllerW> is unconnected or connected to loadless signal.
+    Found 32-bit adder for signal <PC4W[31]_GND_34_o_add_0_OUT> created at line 64.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <W> synthesized.
+
+Synthesizing Unit <MUX_RF_A3>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v".
+    Found 5-bit 4-to-1 multiplexer for signal <RegDstOut> created at line 25.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_RF_A3> synthesized.
+
+Synthesizing Unit <LoadExt>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\loadExt.v".
+    Found 32-bit 4-to-1 multiplexer for signal <Addr[1]_GND_36_o_wide_mux_4_OUT> created at line 34.
+    Found 32-bit 4-to-1 multiplexer for signal <Ext> created at line 32.
+    Summary:
+	inferred   7 Multiplexer(s).
+Unit <LoadExt> synthesized.
+
+Synthesizing Unit <MUX_RF_WD>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\mux.v".
+    Found 32-bit 4-to-1 multiplexer for signal <DataSrcOut> created at line 68.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_RF_WD> synthesized.
+
+Synthesizing Unit <hazard>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v".
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <NPC_Sel> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <CmpOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <ExtOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <ALUOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <BEOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <RegDst> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <DataSrc> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <NPCOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <ALUASrc> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <ALUBSrc> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <MemWrite> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <LoadExtOp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <RegWrite> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <RI_exp> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <iseret> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <iscp0> of the instance <at> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" line 146: Output port <cp0_we> of the instance <at> is unconnected or connected to loadless signal.
+    Found 6-bit register for signal <A2E>.
+    Found 6-bit register for signal <A3E>.
+    Found 6-bit register for signal <A2M>.
+    Found 6-bit register for signal <A3M>.
+    Found 6-bit register for signal <A3W>.
+    Found 4-bit register for signal <icE>.
+    Found 4-bit register for signal <icM>.
+    Found 4-bit register for signal <icW>.
+    Found 6-bit register for signal <A1E>.
+    Found 6-bit comparator equal for signal <A1D[5]_A3E[5]_equal_11_o> created at line 53
+    Found 6-bit comparator equal for signal <A2D[5]_A3E[5]_equal_13_o> created at line 53
+    Found 6-bit comparator equal for signal <A1D[5]_A3M[5]_equal_50_o> created at line 78
+    Found 6-bit comparator equal for signal <A2D[5]_A3M[5]_equal_52_o> created at line 78
+    Found 6-bit comparator equal for signal <A1D[5]_A3W[5]_equal_76_o> created at line 92
+    Found 6-bit comparator equal for signal <A2D[5]_A3W[5]_equal_104_o> created at line 102
+    Found 6-bit comparator equal for signal <A1E[5]_A3M[5]_equal_122_o> created at line 108
+    Found 6-bit comparator equal for signal <A1E[5]_A3W[5]_equal_127_o> created at line 110
+    Found 6-bit comparator equal for signal <A2E[5]_A3M[5]_equal_144_o> created at line 116
+    Found 6-bit comparator equal for signal <A2E[5]_A3W[5]_equal_149_o> created at line 118
+    Found 6-bit comparator equal for signal <A2M[5]_A3W[5]_equal_161_o> created at line 122
+    Summary:
+	inferred  48 D-type flip-flop(s).
+	inferred  11 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <hazard> synthesized.
+
+Synthesizing Unit <bridge>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\bridge\bridge.v".
+    Found 32-bit subtractor for signal <n0052> created at line 66.
+    Found 32-bit comparator lessequal for signal <n0001> created at line 55
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_3_o> created at line 55
+    Found 32-bit comparator lessequal for signal <n0005> created at line 56
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_5_o> created at line 56
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_7_o> created at line 57
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_9_o> created at line 58
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_11_o> created at line 59
+    Found 32-bit comparator greater for signal <addr[31]_GND_39_o_LessThan_13_o> created at line 60
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <bridge> synthesized.
+
+Synthesizing Unit <timer>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\timer.v".
+    Found 1-bit register for signal <Enable>.
+    Found 2-bit register for signal <Mode>.
+    Found 1-bit register for signal <IM>.
+    Found 32-bit register for signal <preset>.
+    Found 32-bit register for signal <count>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <IR>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit subtractor for signal <count[31]_GND_40_o_sub_14_OUT> created at line 87.
+    Found 32-bit 4-to-1 multiplexer for signal <Rd> created at line 27.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  69 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <timer> synthesized.
+
+Synthesizing Unit <MiniUART>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\uart.v".
+WARNING:Xst:647 - Input <DAT_I<31:16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <load>.
+    Found 16-bit register for signal <divt>.
+    Found 8-bit register for signal <tx_data>.
+    Found 16-bit register for signal <divr>.
+    Found 39-bit 7-to-1 multiplexer for signal <n0032> created at line 53.
+    Summary:
+	inferred  41 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <MiniUART> synthesized.
+
+Synthesizing Unit <rx_unit>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v".
+        IDLE = 32'b00000000000000000000000000000000
+        START = 32'b00000000000000000000000000000001
+        BIT_RECV = 32'b00000000000000000000000000000010
+        STOP = 32'b00000000000000000000000000000011
+        WAIT_IDLE = 32'b00000000000000000000000000000100
+    Found 3-bit register for signal <cnt_sample>.
+    Found 3-bit register for signal <cnt_bits>.
+    Found 3-bit register for signal <fsm>.
+    Found 8-bit register for signal <byte>.
+    Found 1-bit register for signal <clk_rf_av>.
+    Found 1-bit register for signal <rf_av>.
+    Found 3-bit subtractor for signal <GND_42_o_GND_42_o_sub_8_OUT<2:0>> created at line 62.
+    Found 3-bit subtractor for signal <GND_42_o_GND_42_o_sub_15_OUT<2:0>> created at line 73.
+    Found 3-bit 7-to-1 multiplexer for signal <fsm[2]_GND_42_o_wide_mux_16_OUT> created at line 45.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <rx_unit> synthesized.
+
+Synthesizing Unit <tx_unit>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v".
+    Summary:
+	no macro.
+Unit <tx_unit> synthesized.
+
+Synthesizing Unit <ctrl_shift>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v".
+        IDLE = 0
+        SHIFT = 1
+    Found 4-bit register for signal <cnt_tx>.
+    Found 1-bit register for signal <fsm>.
+    Found 4-bit subtractor for signal <GND_44_o_GND_44_o_sub_6_OUT<3:0>> created at line 74.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 D-type flip-flop(s).
+Unit <ctrl_shift> synthesized.
+
+Synthesizing Unit <trans_reg>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v".
+    Found 1-bit register for signal <t_reg<9>>.
+    Found 1-bit register for signal <t_reg<8>>.
+    Found 1-bit register for signal <t_reg<7>>.
+    Found 1-bit register for signal <t_reg<6>>.
+    Found 1-bit register for signal <t_reg<5>>.
+    Found 1-bit register for signal <t_reg<4>>.
+    Found 1-bit register for signal <t_reg<3>>.
+    Found 1-bit register for signal <t_reg<2>>.
+    Found 1-bit register for signal <t_reg<1>>.
+    Found 1-bit register for signal <t_reg<0>>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <trans_reg> synthesized.
+
+Synthesizing Unit <divisor>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\utils.v".
+        size_cnt_rx = 16
+        size_cnt_tx = 16
+    Summary:
+	no macro.
+Unit <divisor> synthesized.
+
+Synthesizing Unit <counter>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\utils.v".
+        size_cnt = 16
+    Found 16-bit register for signal <cnt>.
+    Found 1-bit register for signal <q>.
+    Found 16-bit subtractor for signal <GND_49_o_GND_49_o_sub_2_OUT<15:0>> created at line 58.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <counter> synthesized.
+
+Synthesizing Unit <switch>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\switch.v".
+    Found 64-bit register for signal <n0010[63:0]>.
+    Found 1-bit register for signal <IRQ>.
+    Found 64-bit comparator equal for signal <n0001> created at line 38
+    Summary:
+	inferred  65 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <switch> synthesized.
+
+Synthesizing Unit <led>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\led.v".
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <led> synthesized.
+
+Synthesizing Unit <tube>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\tube.v".
+    Found 4-bit register for signal <digital_tube_sel0>.
+    Found 4-bit register for signal <digital_tube_sel1>.
+    Found 32-bit register for signal <cnt>.
+    Found 32-bit register for signal <data>.
+    Found 32-bit subtractor for signal <cnt[31]_GND_53_o_sub_99_OUT> created at line 122.
+    Found 16x8-bit Read Only RAM for signal <digital_tube0>
+    Found 16x8-bit Read Only RAM for signal <digital_tube1>
+    Found 1-bit 3-to-1 multiplexer for signal <_n0271> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0274> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0277> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0280> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0283> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0286> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0289> created at line 113.
+    Found 1-bit 3-to-1 multiplexer for signal <_n0292> created at line 113.
+    Found 32-bit comparator greater for signal <n0159> created at line 118
+    Summary:
+	inferred   2 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  72 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  90 Multiplexer(s).
+Unit <tube> synthesized.
+
+Synthesizing Unit <key>.
+    Related source file is "C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\key.v".
+    Found 8-bit register for signal <data>.
+    Found 1-bit register for signal <IRQ>.
+    Found 8-bit comparator equal for signal <n0001> created at line 35
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <key> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x8-bit single-port Read Only RAM                    : 2
+# Adders/Subtractors                                   : 625
+ 1-bit adder                                           : 600
+ 16-bit subtractor                                     : 2
+ 2-bit adder                                           : 2
+ 2-bit subtractor                                      : 2
+ 3-bit subtractor                                      : 2
+ 32-bit adder                                          : 10
+ 32-bit subtractor                                     : 6
+ 4-bit subtractor                                      : 1
+# Registers                                            : 77
+ 1-bit register                                        : 24
+ 16-bit register                                       : 4
+ 2-bit register                                        : 1
+ 3-bit register                                        : 3
+ 30-bit register                                       : 1
+ 32-bit register                                       : 21
+ 4-bit register                                        : 6
+ 5-bit register                                        : 4
+ 6-bit register                                        : 8
+ 64-bit register                                       : 1
+ 8-bit register                                        : 3
+ 992-bit register                                      : 1
+# Comparators                                          : 72
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 21
+ 32-bit comparator lessequal                           : 6
+ 5-bit comparator lessequal                            : 31
+ 6-bit comparator equal                                : 11
+ 64-bit comparator equal                               : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 1788
+ 1-bit 2-to-1 multiplexer                              : 1078
+ 1-bit 3-to-1 multiplexer                              : 8
+ 16-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 110
+ 3-bit 2-to-1 multiplexer                              : 69
+ 3-bit 7-to-1 multiplexer                              : 1
+ 30-bit 2-to-1 multiplexer                             : 1
+ 32-bit 16-to-1 multiplexer                            : 1
+ 32-bit 2-to-1 multiplexer                             : 195
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 6
+ 39-bit 7-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 233
+ 4-bit 4-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 9
+ 5-bit 4-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 70
+# FSMs                                                 : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/BRAM_DM.ngc>.
+Reading core <ipcore_dir/BRAM_IM.ngc>.
+Loading core <BRAM_DM> for timing and area information for instance <BRAM_DM>.
+Loading core <BRAM_IM> for timing and area information for instance <BRAM_IM>.
+WARNING:Xst:1710 - FF/Latch <IP_5> (without init value) has a constant value of 0 in block <CP0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IP_6> (without init value) has a constant value of 0 in block <CP0>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <counter>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ctrl_shift>.
+The following registers are absorbed into counter <cnt_tx>: 1 register on signal <cnt_tx>.
+Unit <ctrl_shift> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rx_unit>.
+The following registers are absorbed into counter <cnt_bits>: 1 register on signal <cnt_bits>.
+Unit <rx_unit> synthesized (advanced).
+
+Synthesizing (advanced) Unit <tube>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_digital_tube0> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <data_tube0>    |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <digital_tube0> |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_digital_tube1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <data_tube1>    |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <digital_tube1> |          |
+    -----------------------------------------------------------------------
+Unit <tube> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x8-bit single-port distributed Read Only RAM        : 2
+# Adders/Subtractors                                   : 419
+ 1-bit adder                                           : 200
+ 1-bit adder carry in                                  : 200
+ 2-bit adder carry in                                  : 1
+ 2-bit subtractor borrow in                            : 1
+ 3-bit subtractor                                      : 1
+ 32-bit adder                                          : 10
+ 32-bit subtractor                                     : 5
+ 5-bit subtractor                                      : 1
+# Counters                                             : 4
+ 16-bit down counter                                   : 2
+ 3-bit down counter                                    : 1
+ 4-bit down counter                                    : 1
+# Registers                                            : 1934
+ Flip-Flops                                            : 1934
+# Comparators                                          : 72
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 21
+ 32-bit comparator lessequal                           : 6
+ 5-bit comparator lessequal                            : 31
+ 6-bit comparator equal                                : 11
+ 64-bit comparator equal                               : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 1847
+ 1-bit 2-to-1 multiplexer                              : 1142
+ 1-bit 3-to-1 multiplexer                              : 8
+ 2-bit 2-to-1 multiplexer                              : 110
+ 3-bit 2-to-1 multiplexer                              : 68
+ 3-bit 7-to-1 multiplexer                              : 1
+ 30-bit 2-to-1 multiplexer                             : 1
+ 32-bit 16-to-1 multiplexer                            : 1
+ 32-bit 2-to-1 multiplexer                             : 193
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 6
+ 39-bit 7-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 233
+ 4-bit 4-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 9
+ 5-bit 4-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 70
+# FSMs                                                 : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 2
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <IP_5> in Unit <cp0> is equivalent to the following FF/Latch, which will be removed : <IP_6> 
+WARNING:Xst:1710 - FF/Latch <IP_5> (without init value) has a constant value of 0 in block <cp0>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Timer/FSM_0> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+WARNING:Xst:1710 - FF/Latch <f/ExcCodeF_4> (without init value) has a constant value of 1 in block <datapath>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A2E_5> (without init value) has a constant value of 0 in block <hazard>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <A2M_5> (without init value) has a constant value of 0 in block <hazard>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance Clock/pll_base_inst in unit Clock/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <f/ExcCodeF_2> in Unit <datapath> is equivalent to the following 3 FFs/Latches, which will be removed : <f/ExcCodeF_3> <f/ExcCodeF_5> <f/ExcCodeF_6> 
+INFO:Xst:2261 - The FF/Latch <d/ExcCodeE_3> in Unit <datapath> is equivalent to the following FF/Latch, which will be removed : <d/ExcCodeE_5> 
+INFO:Xst:2261 - The FF/Latch <d/ExcCodeE_2> in Unit <datapath> is equivalent to the following FF/Latch, which will be removed : <d/ExcCodeE_6> 
+
+Optimizing unit <pc> ...
+
+Optimizing unit <mips> ...
+
+Optimizing unit <MiniUART> ...
+
+Optimizing unit <rx_unit> ...
+
+Optimizing unit <trans_reg> ...
+
+Optimizing unit <ctrl_shift> ...
+
+Optimizing unit <key> ...
+
+Optimizing unit <datapath> ...
+
+Optimizing unit <mf> ...
+
+Optimizing unit <grf> ...
+
+Optimizing unit <cmp> ...
+
+Optimizing unit <E> ...
+
+Optimizing unit <expE> ...
+
+Optimizing unit <alu> ...
+
+Optimizing unit <M> ...
+
+Optimizing unit <expM> ...
+
+Optimizing unit <dm> ...
+
+Optimizing unit <cp0> ...
+
+Optimizing unit <hazard> ...
+
+Optimizing unit <timer> ...
+
+Optimizing unit <switch> ...
+
+Optimizing unit <led> ...
+
+Optimizing unit <tube> ...
+
+Optimizing unit <bridge> ...
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_31> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_30> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_29> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_28> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_27> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_26> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_25> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_24> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_23> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_22> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_21> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_20> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_19> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_18> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Tube/cnt_17> (without init value) has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <Tube/digital_tube_sel1_0> in Unit <mips> is equivalent to the following FF/Latch, which will be removed : <Tube/digital_tube_sel0_0> 
+INFO:Xst:2261 - The FF/Latch <Tube/digital_tube_sel1_1> in Unit <mips> is equivalent to the following FF/Latch, which will be removed : <Tube/digital_tube_sel0_1> 
+INFO:Xst:2261 - The FF/Latch <Tube/digital_tube_sel1_2> in Unit <mips> is equivalent to the following FF/Latch, which will be removed : <Tube/digital_tube_sel0_2> 
+INFO:Xst:2261 - The FF/Latch <Tube/digital_tube_sel1_3> in Unit <mips> is equivalent to the following FF/Latch, which will be removed : <Tube/digital_tube_sel0_3> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 9.
+FlipFlop CPU/pipeline_dp/d/IRE_10 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/d/IRE_6 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/d/IRE_7 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/d/IRE_8 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/d/IRE_9 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_0 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_1 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_15 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_16 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_17 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_18 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_19 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_2 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_20 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_21 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_22 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_23 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_24 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_25 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_26 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_27 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_28 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_29 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_3 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_30 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_31 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_4 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/f/IRD_5 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/m/IRW_27 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/m/IRW_28 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/m/IRW_29 has been replicated 1 time(s)
+FlipFlop CPU/pipeline_dp/m/IRW_30 has been replicated 2 time(s)
+FlipFlop CPU/pipeline_dp/m/IRW_31 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1994
+ Flip-Flops                                            : 1994
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 6423
+#      GND                         : 3
+#      INV                         : 236
+#      LUT1                        : 63
+#      LUT2                        : 206
+#      LUT3                        : 1211
+#      LUT4                        : 485
+#      LUT5                        : 850
+#      LUT6                        : 2175
+#      MUXCY                       : 625
+#      MUXF7                       : 102
+#      VCC                         : 3
+#      XORCY                       : 464
+# FlipFlops/Latches                : 1998
+#      FD                          : 239
+#      FDC                         : 35
+#      FDCE                        : 54
+#      FDE                         : 4
+#      FDPE                        : 18
+#      FDR                         : 328
+#      FDRE                        : 1300
+#      FDS                         : 8
+#      FDSE                        : 12
+# RAMS                             : 32
+#      RAMB16BWER                  : 32
+# Clock Buffers                    : 3
+#      BUFG                        : 3
+# IO Buffers                       : 141
+#      IBUF                        : 74
+#      IBUFG                       : 1
+#      OBUF                        : 66
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx100fgg676-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1998  out of  126576     1%  
+ Number of Slice LUTs:                 5226  out of  63288     8%  
+    Number used as Logic:              5226  out of  63288     8%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   5558
+   Number with an unused Flip Flop:    3560  out of   5558    64%  
+   Number with an unused LUT:           332  out of   5558     5%  
+   Number of fully used LUT-FF pairs:  1666  out of   5558    29%  
+   Number of unique control sets:        34
+
+IO Utilization: 
+ Number of IOs:                         141
+ Number of bonded IOBs:                 141  out of    480    29%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               32  out of    268    11%  
+    Number using Block RAM only:         32
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+ Number of PLL_ADVs:                      1  out of      6    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                                                    | Load  |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock/pll_base_inst/CLKOUT0        | BUFG                                                                                                                                                                     | 1993  |
+UART/U_RX_UNIT/clk_rf_av           | NONE(UART/U_RX_UNIT/rf_av)                                                                                                                                               | 1     |
+Clock/pll_base_inst/CLKOUT1        | BUFG                                                                                                                                                                     | 36    |
+CPU/pipeline_dp/m/DMM/BRAM_DM/N1   | NONE(CPU/pipeline_dp/m/DMM/BRAM_DM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 16    |
+CPU/pipeline_dp/f/IMF/BRAM_IM/N1   | NONE(CPU/pipeline_dp/f/IMF/BRAM_IM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 16    |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 20.054ns (Maximum Frequency: 49.866MHz)
+   Minimum input arrival time before clock: 7.119ns
+   Maximum output required time after clock: 8.513ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock/pll_base_inst/CLKOUT0'
+  Clock period: 20.054ns (frequency: 49.866MHz)
+  Total number of paths / destination ports: 3707747402 / 3643
+-------------------------------------------------------------------------
+Delay:               20.054ns (Levels of Logic = 40)
+  Source:            CPU/pipeline_dp/f/IRD_6 (FF)
+  Destination:       CPU/pipeline_dp/f/PCF/PC_31 (FF)
+  Source Clock:      Clock/pll_base_inst/CLKOUT0 rising
+  Destination Clock: Clock/pll_base_inst/CLKOUT0 rising
+
+  Data Path: CPU/pipeline_dp/f/IRD_6 to CPU/pipeline_dp/f/PCF/PC_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.525   1.406  CPU/pipeline_dp/f/IRD_6 (CPU/pipeline_dp/f/IRD_6)
+     LUT5:I0->O           18   0.254   1.235  CPU/pipeline_dp/IRD[31]_PWR_7_o_AND_4_o211 (CPU/pipeline_dp/IRD[31]_PWR_7_o_AND_4_o21)
+     LUT5:I4->O            2   0.254   0.834  CPU/pipeline_hzd/at/Madd_add_is_xor_add_120_OUT<0>_Madd_xor<0>1211 (CPU/pipeline_hzd/at/Madd_add_is_xor_add_120_OUT<0>_Madd_xor<0>121)
+     LUT6:I4->O            1   0.250   0.682  CPU/pipeline_hzd/at/Madd_n0417_Madd_lut<0>1 (CPU/pipeline_hzd/at/Madd_n0417_Madd_lut<0>)
+     LUT6:I5->O            2   0.254   0.726  CPU/pipeline_hzd/at/Madd_n0423_Madd_lut<0>1 (CPU/pipeline_hzd/at/Madd_n0423_Madd_lut<0>)
+     LUT5:I4->O           10   0.254   1.008  CPU/pipeline_hzd/at/Madd_add_is_xor_add_120_OUT<0>_Madd_lut<0>1 (CPU/pipeline_hzd/at/Madd_add_is_xor_add_120_OUT<0>_Madd_lut<0>)
+     LUT6:I5->O           18   0.254   1.235  CPU/pipeline_hzd/at/Mmux_A111 (CPU/pipeline_hzd/A1D<5>)
+     LUT4:I3->O            3   0.254   0.994  CPU/pipeline_hzd/at/Mmux_A141 (CPU/pipeline_hzd/A1D<3>)
+     LUT6:I3->O            6   0.235   0.876  CPU/pipeline_hzd/A1D[5]_A3E[5]_equal_11_o62 (CPU/pipeline_hzd/A1D[5]_A3E[5]_equal_11_o61)
+     LUT6:I5->O           16   0.254   1.182  CPU/pipeline_hzd/A1D[5]_icE[3]_AND_247_o1_3 (CPU/pipeline_hzd/A1D[5]_icE[3]_AND_247_o12)
+     LUT6:I5->O           15   0.254   1.155  CPU/pipeline_hzd/Mmux_Forward_RS_D_Sel110_1 (CPU/pipeline_hzd/Mmux_Forward_RS_D_Sel110)
+     LUT6:I5->O            1   0.254   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_lut<2> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<2> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<3> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<4> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<5> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<6> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<7> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<8> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<9> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<10> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<11> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<12> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<13> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<14> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<15> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<16> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<17> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<18> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<19> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<20> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<21> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<22> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<23> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<24> (CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_cy<24>)
+     XORCY:CI->O           5   0.206   1.271  CPU/pipeline_dp/d/MF_RS_D/Mmux_MF_OUT6_rs_xor<25> (CPU/pipeline_dp/MF_RS_D_OUT<25>)
+     LUT5:I0->O            1   0.254   0.000  CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_lut<5> (CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_cy<5> (CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_cy<5>)
+     MUXCY:CI->O           2   0.235   0.726  CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_cy<6> (CPU/pipeline_dp/d/CMPD/Mcompar_Rd1[31]_GND_20_o_LessThan_6_o_cy<6>)
+     LUT6:I5->O           17   0.254   1.209  CPU/pipeline_dp/d/CMPD/Branch1 (CPU/pipeline_dp/Branch)
+     LUT6:I5->O            1   0.254   0.000  CPU/pipeline_dp/f/Mmux_NPC_exp624 (CPU/pipeline_dp/f/NPC_exp<8>)
+     FDRE:D                    0.074          CPU/pipeline_dp/f/PCF/PC_8
+    ----------------------------------------
+    Total                     20.054ns (5.515ns logic, 14.539ns route)
+                                       (27.5% logic, 72.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'UART/U_RX_UNIT/clk_rf_av'
+  Clock period: 7.407ns (frequency: 135.003MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               7.407ns (Levels of Logic = 4)
+  Source:            UART/U_RX_UNIT/rf_av (FF)
+  Destination:       UART/U_RX_UNIT/rf_av (FF)
+  Source Clock:      UART/U_RX_UNIT/clk_rf_av rising
+  Destination Clock: UART/U_RX_UNIT/clk_rf_av rising
+
+  Data Path: UART/U_RX_UNIT/rf_av to UART/U_RX_UNIT/rf_av
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.766  UART/U_RX_UNIT/rf_av (UART/U_RX_UNIT/rf_av)
+     LUT6:I5->O            5   0.254   0.841  CPU/pipeline_dp/EXP/CP0/IntReq_SW0 (N124)
+     LUT6:I5->O           42   0.254   1.963  CPU/pipeline_dp/EXP/CP0/IntReq (CPU/pipeline_dp/EXP/IntReq)
+     LUT5:I1->O            2   0.254   1.156  Bridge/uart_We1 (uart_We)
+     LUT6:I1->O            1   0.254   0.681  UART/U_RX_UNIT/rst_over_read_OR_378_o (UART/U_RX_UNIT/rst_over_read_OR_378_o)
+     FDC:CLR                   0.459          UART/U_RX_UNIT/rf_av
+    ----------------------------------------
+    Total                      7.407ns (2.000ns logic, 5.407ns route)
+                                       (27.0% logic, 73.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock/pll_base_inst/CLKOUT1'
+  Clock period: 7.010ns (frequency: 142.653MHz)
+  Total number of paths / destination ports: 864 / 128
+-------------------------------------------------------------------------
+Delay:               7.010ns (Levels of Logic = 4)
+  Source:            CPU/pipeline_dp/m/DMM/BRAM_DM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Destination:       CPU/pipeline_dp/m/DMM/BRAM_DM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      Clock/pll_base_inst/CLKOUT1 rising
+  Destination Clock: Clock/pll_base_inst/CLKOUT1 rising
+
+  Data Path: CPU/pipeline_dp/m/DMM/BRAM_DM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram to CPU/pipeline_dp/m/DMM/BRAM_DM/U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKA->DOA7    1   2.100   0.958  U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[13].ram.ram_douta<7>)
+     LUT6:I2->O            3   0.254   0.994  U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux251 (douta<31>)
+     end scope: 'CPU/pipeline_dp/m/DMM/BRAM_DM:douta<31>'
+     LUT6:I3->O            1   0.235   1.112  CPU/pipeline_dp/m/DMM/Mmux_D2write342 (CPU/pipeline_dp/m/DMM/Mmux_D2write341)
+     LUT5:I0->O            4   0.254   0.803  CPU/pipeline_dp/m/DMM/Mmux_D2write344 (CPU/pipeline_dp/m/DMM/D2write<31>)
+     begin scope: 'CPU/pipeline_dp/m/DMM/BRAM_DM:dina<31>'
+     RAMB16BWER:DIA7           0.300          U0/xst_blk_mem_generator/gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                      7.010ns (3.143ns logic, 3.867ns route)
+                                       (44.8% logic, 55.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 6305 / 2138
+-------------------------------------------------------------------------
+Offset:              7.119ns (Levels of Logic = 2)
+  Source:            sys_rstn (PAD)
+  Destination:       UART/U_DIVISOR/U_CNT_TX/cnt_15 (FF)
+  Destination Clock: Clock/pll_base_inst/CLKOUT0 rising
+
+  Data Path: sys_rstn to UART/U_DIVISOR/U_CNT_TX/cnt_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           152   1.328   2.364  sys_rstn_IBUF (sys_rstn_IBUF)
+     INV:I->O           1414   0.255   2.713  Reset1_INV_0 (Reset)
+     FDC:CLR                   0.459          UART/load
+    ----------------------------------------
+    Total                      7.119ns (2.042ns logic, 5.077ns route)
+                                       (28.7% logic, 71.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'UART/U_RX_UNIT/clk_rf_av'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.087ns (Levels of Logic = 2)
+  Source:            sys_rstn (PAD)
+  Destination:       UART/U_RX_UNIT/rf_av (FF)
+  Destination Clock: UART/U_RX_UNIT/clk_rf_av rising
+
+  Data Path: sys_rstn to UART/U_RX_UNIT/rf_av
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           152   1.328   2.365  sys_rstn_IBUF (sys_rstn_IBUF)
+     LUT6:I5->O            1   0.254   0.681  UART/U_RX_UNIT/rst_over_read_OR_378_o (UART/U_RX_UNIT/rst_over_read_OR_378_o)
+     FDC:CLR                   0.459          UART/U_RX_UNIT/rf_av
+    ----------------------------------------
+    Total                      5.087ns (2.041ns logic, 3.046ns route)
+                                       (40.1% logic, 59.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 657 / 55
+-------------------------------------------------------------------------
+Offset:              8.513ns (Levels of Logic = 4)
+  Source:            Tube/digital_tube_sel1_1 (FF)
+  Destination:       digital_tube0<6> (PAD)
+  Source Clock:      Clock/pll_base_inst/CLKOUT0 rising
+
+  Data Path: Tube/digital_tube_sel1_1 to digital_tube0<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q            21   0.525   1.765  Tube/digital_tube_sel1_1 (Tube/digital_tube_sel1_1)
+     LUT6:I0->O            1   0.254   0.682  Tube/Mmux_data_tube141 (Tube/Mmux_data_tube14)
+     LUT6:I5->O            7   0.254   1.186  Tube/Mmux_data_tube142 (Tube/data_tube1<3>)
+     LUT4:I0->O            1   0.254   0.681  Tube/Mram_digital_tube1111 (digital_tube1_1_OBUF)
+     OBUF:I->O                 2.912          digital_tube1_1_OBUF (digital_tube1<1>)
+    ----------------------------------------
+    Total                      8.513ns (4.199ns logic, 4.314ns route)
+                                       (49.3% logic, 50.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clock/pll_base_inst/CLKOUT0
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+Clock/pll_base_inst/CLKOUT0|   20.054|         |         |         |
+Clock/pll_base_inst/CLKOUT1|    5.406|         |         |         |
+UART/U_RX_UNIT/clk_rf_av   |   10.319|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Clock/pll_base_inst/CLKOUT1
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+Clock/pll_base_inst/CLKOUT0|   17.532|         |         |         |
+Clock/pll_base_inst/CLKOUT1|    7.010|         |         |         |
+UART/U_RX_UNIT/clk_rf_av   |    9.143|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UART/U_RX_UNIT/clk_rf_av
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+Clock/pll_base_inst/CLKOUT0|   17.989|         |         |         |
+UART/U_RX_UNIT/clk_rf_av   |    7.407|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 49.00 secs
+Total CPU time to Xst completion: 49.34 secs
+ 
+--> 
+
+Total memory usage is 329984 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   63 (   0 filtered)
+Number of infos    :  200 (   0 filtered)
+

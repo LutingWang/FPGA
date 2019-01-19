@@ -1,0 +1,127 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips_tb_isim_beh.exe" -prj "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/ipcore_dir/CLOCK.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/ipcore_dir/BRAM_DM.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/loadExt.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/dm.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/be.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/grf.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/cmp.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/pc.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/im.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/utils.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/txd.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/rxd.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/timer.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/switch.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/uart.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/led.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/key.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/cpu.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v" Line 61: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 103: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v" Line 90: Port ALUASrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v" Line 34: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 75: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 107: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v" Line 116: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v" Line 45: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v" Line 85: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v" Line 107: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v" Line 48: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v" Line 37: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" Line 146: Port NPC_Sel is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 182644 KB
+Fuse CPU Usage: 874 ms
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=16,CLKIN_...
+Compiling module BUFG
+Compiling module CLOCK
+Compiling module ctrl
+Compiling module cp0
+Compiling module exception
+Compiling module expF
+Compiling module pc
+Compiling module im
+Compiling module MUX_PC
+Compiling module F
+Compiling module expD
+Compiling module grf
+Compiling module cmp
+Compiling module npc
+Compiling module ext
+Compiling module mf
+Compiling module D
+Compiling module expE
+Compiling module alu
+Compiling module MUX_ALU_A
+Compiling module MUX_ALU_B
+Compiling module E
+Compiling module expM
+Compiling module be
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module BRAM_DM
+Compiling module dm
+Compiling module M
+Compiling module MUX_RF_A3
+Compiling module LoadExt
+Compiling module MUX_RF_WD
+Compiling module W
+Compiling module datapath
+Compiling module hazard
+Compiling module cpu
+Compiling module bridge
+Compiling module timer
+Compiling module rx_unit
+Compiling module ctrl_shift
+Compiling module trans_reg
+Compiling module tx_unit
+Compiling module counter(size_cnt=16)
+Compiling module divisor(size_cnt_rx=16,size_cnt_...
+Compiling module MiniUART
+Compiling module switch
+Compiling module led
+Compiling module tube
+Compiling module key
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 57 Verilog Units
+Built simulation executable C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips_tb_isim_beh.exe
+Fuse Memory Usage: 197856 KB
+Fuse CPU Usage: 2046 ms

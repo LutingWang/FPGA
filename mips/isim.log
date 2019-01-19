@@ -1,0 +1,376 @@
+ISim log file
+Running: C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run all
+Stopped at time : 221580 ns : File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v" Line 63
+# restart
+# run 10.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 10.00us
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 10.00us
+# run 10.00us
+# restart
+# run 3.50us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 3.50us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 2.95us
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# show driver /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[0]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[10]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[11]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[12]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[13]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[14]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[15]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[16]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[17]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[18]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[19]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[1]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[20]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[21]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[22]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[23]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[24]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[25]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[26]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[27]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[28]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[29]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[2]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[30]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[31]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[3]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[4]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[5]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[6]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[7]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[8]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/m/Dread_exp[9]
+	St0	: /mips_tb/uut/CPU/pipeline_dp/EXP/CP0/Cont_57_2
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v" Line 57
+
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 2.95us
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# show driver /mips_tb/uut/CPU/pipeline_dp/w/mux_rf_wd_W/DataSrc
+Driver for /mips_tb/uut/CPU/pipeline_dp/w/mux_rf_wd_W/DataSrc[0]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/w/contorllerW/Cont_206_71
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v" Line 206
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/w/mux_rf_wd_W/DataSrc[1]
+	St1	: /mips_tb/uut/CPU/pipeline_dp/w/contorllerW/Cont_206_71
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v" Line 206
+
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# show driver /mips_tb/uut/CPU/pipeline_dp/e/MF_RS_E/Forward_Sel
+Driver for /mips_tb/uut/CPU/pipeline_dp/e/MF_RS_E/Forward_Sel[0]
+	St1	: /mips_tb/uut/CPU/pipeline_hzd/Cont_106_11
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" Line 106
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/e/MF_RS_E/Forward_Sel[1]
+	St1	: /mips_tb/uut/CPU/pipeline_hzd/Cont_106_11
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" Line 106
+
+Driver for /mips_tb/uut/CPU/pipeline_dp/e/MF_RS_E/Forward_Sel[2]
+	St0	: /mips_tb/uut/CPU/pipeline_hzd/Cont_106_11
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v" Line 106
+
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# restart
+# run 2.95us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# show driver /mips_tb/uut/CPU/pipeline_hzd/at/lui
+Driver for /mips_tb/uut/CPU/pipeline_hzd/at/lui
+	St0	: /mips_tb/uut/CPU/pipeline_hzd/at/Cont_106_38
+		  in File "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v" Line 106
+
+# run 2.95us
+# restart
+# run 3.1us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 3.1us
+# run 3.1us
+# run 3.1us
+# run 3.1us
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_tb.uut.CPU.pipeline_dp.m.DMM.BRAM_DM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 3.1us
+# run 3.1us
+# run 3.1us
+# run 3.1us
+# run 3.1us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us

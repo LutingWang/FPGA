@@ -1,0 +1,383 @@
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/test/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/test/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/test/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/test/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.xst" -ofn "C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pin.ucf -p xc6slx100-fgg676-2 mips.ngc mips.ngd  
+map -intstyle ise -p xc6slx100-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 

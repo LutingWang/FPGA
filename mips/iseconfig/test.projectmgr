@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="test" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/EXP - exception</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/d - D</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/e - E</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/m - M</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/m - M/DMM - dm</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/m - M/EXPM - expM</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/w - W</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_hzd - hazard</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/UART - MiniUART/U_TX_UNIT - tx_unit</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mips (C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >11</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mips (C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001790000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>mips.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000106000000010000000100000000000000000000000064ffffffff000000810000000000000001000001060000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Regenerate Core</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Regenerate Core</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/EXP - exception</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/d - D</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/e - E</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/m - M</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_dp - datapath/w - W</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/CPU - cpu/pipeline_hzd - hazard</ClosedNode>
+         <ClosedNode>/mips C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips.v/UART - MiniUART</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/EXP - exception</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/d - D</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/e - E</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/e - E/EXPE - expE</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/m - M</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/m - M/DMM - dm</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_dp - datapath/w - W</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/CPU - cpu/pipeline_hzd - hazard</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/UART - MiniUART</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/UART - MiniUART/U_DIVISOR - divisor</ClosedNode>
+         <ClosedNode>/mips_tb C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips_tb.v/uut - mips/UART - MiniUART/U_TX_UNIT - tx_unit</ClosedNode>
+         <ClosedNode>/testbench_miniuart C:|Users|ThinkPad|Documents|ISE|FPGA|mips|mips|external|MiniUART|testbench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000117000000010000000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

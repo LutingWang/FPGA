@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v&quot; line 49
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/bridge/bridge.v&quot; line 50
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v&quot; line 46
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v&quot; line 47
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_hazard.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/ctrl.v&quot; line 48
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v&quot; line 33
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v</arg>&quot; Line <arg fmt="%d" index="2">34</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_hazard.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v&quot; line 34
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v</arg>&quot; Line <arg fmt="%d" index="2">35</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/control/hazard.v&quot; line 35
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/cpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v</arg>&quot; Line <arg fmt="%d" index="2">39</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v&quot; line 39
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v</arg>&quot; Line <arg fmt="%d" index="2">40</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v&quot; line 40
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/F.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/im.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/im.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/im.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/pc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/pc.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/1_F/pc.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v&quot; line 50
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/D.v&quot; line 51
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/cmp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/cmp.v</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/cmp.v&quot; line 28
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/ext.v&quot; line 28
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/grf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v&quot; line 28
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/2_D/npc.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v</arg>&quot; Line <arg fmt="%d" index="2">43</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v&quot; line 43
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v</arg>&quot; Line <arg fmt="%d" index="2">44</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/E.v&quot; line 44
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v</arg>&quot; Line <arg fmt="%d" index="2">32</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v&quot; line 32
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/3_E/alu.v&quot; line 33
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v&quot; line 47
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/M.v&quot; line 48
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/be.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/be.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/be.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/dm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/dm.v</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/4_M/dm.v&quot; line 30
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/W.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/loadExt.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/loadExt.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/5_W/loadExt.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v</arg>&quot; Line <arg fmt="%d" index="2">42</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v&quot; line 42
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v</arg>&quot; Line <arg fmt="%d" index="2">43</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/datapath.v&quot; line 43
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_hazard.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v</arg>&quot; Line <arg fmt="%d" index="2">32</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mf.v&quot; line 32
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 28
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">44</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 44
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 57
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">71</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 71
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 72
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 90
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v</arg>&quot; Line <arg fmt="%d" index="2">91</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/datapath/mux.v&quot; line 91
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v</arg>&quot; Line <arg fmt="%d" index="2">39</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v&quot; line 39
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v</arg>&quot; Line <arg fmt="%d" index="2">40</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v&quot; line 40
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/cp0.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v</arg>&quot; Line <arg fmt="%d" index="2">35</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v&quot; line 35
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v</arg>&quot; Line <arg fmt="%d" index="2">36</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/exception.v&quot; line 36
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expD.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v&quot; line 28
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ctrl.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v&quot; line 30
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_hazard.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expE.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v</arg>&quot; Line <arg fmt="%d" index="2">26</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v&quot; line 26
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expF.v&quot; line 27
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_expint.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v&quot; line 29
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_addr.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v&quot; line 30
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_hazard.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/cpu/expectation/expM.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/rxd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/rxd.v</arg>&quot; Line <arg fmt="%d" index="2">9</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/head_uart.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/rxd.v&quot; line 9
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/txd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/txd.v</arg>&quot; Line <arg fmt="%d" index="2">14</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/head_uart.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/txd.v&quot; line 14
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/uart.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/uart.v</arg>&quot; Line <arg fmt="%d" index="2">12</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/head_uart.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/uart.v&quot; line 12
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/MiniUART/utils.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/key.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/led.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/switch.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/timer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/timer.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_debug.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/timer.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v</arg>&quot; Line <arg fmt="%d" index="2">37</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_driver.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v&quot; line 37
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v</arg>&quot; Line <arg fmt="%d" index="2">38</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/header_ind.v&apos; in file &quot;C:/Users/ThinkPad/Documents/ISE/FPGA/mips/mips/external/tube.v&quot; line 38
+</arg>
+</msg>
+
+</messages>
+

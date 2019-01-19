@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 119: Assignment to <arg fmt="%s" index="1">clkout2_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 120: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 121: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 122: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\CLOCK.v" Line 123: Assignment to <arg fmt="%s" index="1">locked_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v" Line 61: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v" Line 103: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_IM.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">BRAM_IM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v" Line 90: Port <arg fmt="%s" index="1">ALUASrc</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v" Line 34: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 75: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 107: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 116: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v" Line 45: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 87: Assignment to <arg fmt="%s" index="1">N</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 88: Assignment to <arg fmt="%s" index="1">Z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 90: Assignment to <arg fmt="%s" index="1">Carry</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 107: Input port <arg fmt="%s" index="1">PC4E[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v" Line 116: Input port <arg fmt="%s" index="1">PC4E[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 85: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 107: Port <arg fmt="%s" index="1">PC4E</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v" Line 48: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\ipcore_dir\BRAM_DM.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">BRAM_DM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v" Line 107: Input port <arg fmt="%s" index="1">PC4E[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v" Line 37: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" Line 146: Port <arg fmt="%s" index="1">NPC_Sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v" Line 127: Assignment to <arg fmt="%s" index="1">A1M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\bridge\bridge.v" Line 66: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 54: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 55: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 62: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 65: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\rxd.v" Line 73: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\txd.v" Line 74: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\utils.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\external\MiniUART\uart.v" Line 53: Result of <arg fmt="%d" index="1">39</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\exception.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerExp</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\cp0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atCP0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\2_D\D.v</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expD.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">riD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">PC4E</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">MF_RS_E</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">PC4E</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">MF_RT_E</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">82</arg>: Output port &lt;<arg fmt="%s" index="3">N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALUE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">82</arg>: Output port &lt;<arg fmt="%s" index="3">Z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALUE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\3_E\E.v</arg>&quot; line <arg fmt="%s" index="2">82</arg>: Output port &lt;<arg fmt="%s" index="3">Carry</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALUE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expE.v</arg>&quot; line <arg fmt="%s" index="2">45</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">PC4E</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">MF_RT_M</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">AO</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">MF_RT_M</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">PC4M</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">MF_RT_M</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\4_M\M.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">controllerM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\expectation\expM.v</arg>&quot; line <arg fmt="%s" index="2">48</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">atM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">A1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">A2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">A3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\datapath\5_W\W.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">contorllerW</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">NPC_Sel</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">CmpOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">ExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">ALUOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">BEOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">RegDst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">DataSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">NPCOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">ALUASrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">ALUBSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">LoadExtOp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">RI_exp</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">iseret</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">iscp0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ThinkPad\Documents\ISE\FPGA\mips\mips\cpu\control\hazard.v</arg>&quot; line <arg fmt="%s" index="2">146</arg>: Output port &lt;<arg fmt="%s" index="3">cp0_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">at</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DAT_I&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IP_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CP0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IP_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CP0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_digital_tube0</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_digital_tube1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IP_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cp0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IP_6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IP_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cp0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">f/ExcCodeF_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">datapath</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">A2E_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hazard</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">A2M_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hazard</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">Clock/pll_base_inst</arg> in unit <arg fmt="%s" index="2">Clock/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">f/ExcCodeF_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">datapath</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;f/ExcCodeF_3&gt; &lt;f/ExcCodeF_5&gt; &lt;f/ExcCodeF_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">d/ExcCodeE_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">datapath</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;d/ExcCodeE_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">d/ExcCodeE_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">datapath</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;d/ExcCodeE_6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Tube/cnt_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Tube/digital_tube_sel1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Tube/digital_tube_sel0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Tube/digital_tube_sel1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Tube/digital_tube_sel0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Tube/digital_tube_sel1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Tube/digital_tube_sel0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Tube/digital_tube_sel1_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Tube/digital_tube_sel0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
